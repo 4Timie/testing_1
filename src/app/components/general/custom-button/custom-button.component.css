@@ -1,0 +1,149 @@
+.button {
+  height: 50px;
+  background-color: #3d82ad;
+  border: 0;
+  color: white;
+  border-radius: 10px 0 10px 10px;
+  font-size: 15px;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+/* .button:hover {
+  border-right: 4px solid #AECE2B;
+  border-bottom: 4px solid #AECE2B;
+  background-image: linear-gradient(to bottom, #0282ad, black);
+  transition: 10ms;
+} */
+
+.divider {
+  border: 1px solid #d9d9d9;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_container {
+  max-width: 584px;
+  /* height: 716px; */
+  border-radius: 18px;
+  background: #ffffff;
+  padding: 20px;
+  z-index: 1001;
+  position: fixed;
+}
+
+.modal_cancel {
+  width: 36px;
+  height: 36px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal_content_header {
+  padding-top: 30px;
+}
+
+.modal_header p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.modal_header {
+  text-align: center;
+}
+
+.modal_flex_form {
+  display: flex;
+  gap: 20px;
+}
+
+.modal_content_body {
+  padding: 20px 0;
+}
+
+label {
+  font-weight: 200;
+}
+
+.name {
+  width: 172px;
+  height: 52px;
+  border-radius: 10px;
+  border: 0.5px solid #343b41cc;
+  padding-left: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.email {
+  width: 328px;
+  height: 52px;
+  border-radius: 10px;
+  border: 0.5px solid #343b41cc;
+  padding-left: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.message {
+  width: 520px;
+  height: 144px;
+  border-radius: 10px;
+  border: 0.5px solid #343b41cc;
+  padding: 10px;
+  resize: none;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.modal_button {
+  text-align: right;
+}
+
+.modal_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal_footer a {
+  color: #3d82ad;
+}
+
+.modal_text {
+  width: 359px;
+}
+
+.modal_links_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal_links {
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,92 @@
+<div class="services">
+  <div class="services_container">
+    <div class="services_text_container">
+      <h1><span>Services</span> we provide</h1>
+      <p>
+        Unlock the Future of Finance with eProcess Ghana. Our innovative
+        financial technology services redefine transactions, security, and
+        efficiency, propelling businesses into the next era of digital finance.
+      </p>
+    </div>
+
+    <div class="services_image_container">
+      <div class="services_image">
+        <img class="image" src="../../../../../assets/images/work-small.png" alt="" />
+      </div>
+
+      <div class="services_image_accordion">
+        <div class="accordion">
+          <div class="accordion_number">01</div>
+          <div class="accordion_container">
+            <div class="accordion_header" (click)="toggle1()">
+              <h3>Software Services</h3>
+              <mat-icon>{{
+                showBody1 ? "keyboard_arrow_down" : "chevron_right"
+              }}</mat-icon>
+            </div>
+            <div *ngIf="showBody1" class="accordion_body">
+              <p>Software development, and owner of key proprietary</p>
+              <p>
+                switch covering 33 countries. it is the entries of our PAN debit
+              </p>
+              <p>and credit card</p>
+            </div>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion_number">02</div>
+          <div class="accordion_container">
+            <div class="accordion_header" (click)="toggle2()">
+              <h3>Technology and data services</h3>
+              <mat-icon>{{
+                showBody2 ? "keyboard_arrow_down" : "chevron_right"
+              }}</mat-icon>
+            </div>
+            <div *ngIf="showBody2" class="accordion_body">
+              <p>
+                Technology, consulting and data center (DC) hosting services
+              </p>
+              <p>
+                through offsite physical DC infrastucture.Also, provision of SOC
+              </p>
+              <p>(security operations center).</p>
+            </div>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion_number">03</div>
+          <div class="accordion_container">
+            <div class="accordion_header" (click)="toggle3()">
+              <h3>Cross border switching and card services</h3>
+              <mat-icon>{{
+                showBody3 ? "keyboard_arrow_down" : "chevron_right"
+              }}</mat-icon>
+            </div>
+            <div *ngIf="showBody3" class="accordion_body">
+              <p>
+                Transaction switching, leveraging our existing central Software
+              </p>
+              <p>development, and owner of key proprietary</p>
+              <p>
+                switch covering 33 countries. It is the engine for our PAN debit
+                and
+              </p>
+              <p>credit cards.</p>
+            </div>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="services_link_container">
+          <a routerLink="/eProcess-nigeria/about-us"
+            >See our products</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,142 @@
+.blog_main {
+  padding-top: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.blog_main_container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.blog_back {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.blog_back p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.blog_main_secondContainer{
+  padding: 20px 0;
+}
+
+.blog_date {
+  padding: 10px 0px;
+}
+
+.blog_container_product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(2, 130, 173, 0.1);
+  width: 173px;
+  height: 28px;
+  border-radius: 50px;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.blog_product {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.blog_container_product p {
+  color: rgba(2, 130, 173, 1);
+  font-size: 12px;
+}
+
+.blog_main_image {
+  height: 595px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 0 12px 12px;
+  margin-top: 50px;
+}
+
+.blog_container_mainContent {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.blog_container_mainwriter p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.blog_container_writer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 5px;
+}
+
+.blog_avatar {
+  height: 32px;
+  width: 32px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.blog_writer p:first-child {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.blog_writer p:last-child {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.blog_container_share {
+  padding-top: 40px;
+}
+
+.blog_container_media {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 10px;
+}
+
+.blog_container_icon {
+  height: 32px;
+  width: 32px;
+  background-color: grey;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #0282ad, #20a0cb, #0a96c6);
+}
+
+.icon {
+  color: white;
+}
+
+.blog_container_text {
+  width: 689px;
+}
+
+.blog_related_container{
+  margin: 50px 0;
+}
+.related_card {
+  display: flex;
+  padding-top: 40px;
+  gap: 30px;
+}
+

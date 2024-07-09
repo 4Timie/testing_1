@@ -1,0 +1,213 @@
+.team {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: whitesmoke;
+  }
+  
+  .team_container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  .team_text {
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team_text h1 {
+    padding-bottom: 20px;
+  }
+  
+  .team_text span {
+    background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent;
+    background-image: linear-gradient(to right, #0282ad, #aece2b);
+  }
+  
+  .team_text p {
+    font-size: 15px;
+    font-weight: 200;
+    width: 616px;
+  }
+  
+  /* Members container */
+  .members_container {
+    width: 100%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding-top: 30px;
+  }
+  
+  .members_container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .members_board {
+    background-image: linear-gradient(to right, #0282ad, #aece2b);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .members_management {
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 20px;
+  }
+  
+  .team_members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .team_member_container {
+    width: 381px;
+    height: 511px;
+    border: 1px solid #0282ad;
+    border-radius: 8px 0 8px 8px;
+    background-image: url("../../../../../assets/images/Ellipse.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  
+  .team_member_container2 {
+    width: 381px;
+    height: 511px;
+    border: 1px solid #0282ad;
+    border-radius: 8px 0 8px 8px;
+    background-image: url("../../../../../assets/images/Ellipse2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  
+  .team_member_mini {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .team_member_mini p:first-child {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 10px;
+  }
+  
+  .team_member_mini p {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .team_member_mini span {
+    font-weight: 700;
+  }
+  
+  .divider {
+    border: 1px solid #d9d9d9;
+    margin: 10px 0;
+  }
+  
+  .team_button {
+    text-align: center;
+  }
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal_container {
+    max-width: 584px;
+    /* height: 716px; */
+    border-radius: 18px;
+    background: #ffffff;
+    padding: 20px;
+    z-index: 1001;
+    position: fixed;
+  }
+  
+  .modal_cancel {
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .modal_content_header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .modal_avatar {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 30px;
+  }
+  
+  .modal_content_header p {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 0;
+  }
+  
+  .modal_content_header span {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .modal_content_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal_arrow_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .modal_arrow {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0282ad;
+    border-radius: 30px;
+  }
+  
+  .arrow {
+    color: #0282ad;
+  }
+  

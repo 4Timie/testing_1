@@ -1,0 +1,26 @@
+<div class="card" (click)="toBlogContent(new)">
+  <img src="{{ new.image }}" alt="image" />
+
+  <div class="card_container_text"> 
+    <div class="card_container_product">
+      <div class="card_product">
+        <p>product</p>
+      </div>
+      <p>5 mins read</p>
+    </div>
+
+    <div class="card_container_topic">
+      <p class="card_topic">{{ new.topic }}</p>
+      <p class="card_description">{{ new.description }}</p>
+    </div>
+
+    <div class="card_container_writer">
+      <div class="card_avatar"></div>
+      <div class="card_writer">
+        <p>{{ new.writer }}</p>
+        <p>{{ new.date }}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

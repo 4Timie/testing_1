@@ -1,0 +1,120 @@
+.philosophy_container {
+  background: linear-gradient(to right, #0282AD, #20A0CB, #0A96C6);
+  height: 400px;
+  position: relative;
+   display: flex;
+  align-items: center; 
+}
+
+.horizontal-repeat {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  /* /* align-self: center; */
+  justify-content: center; 
+  gap: 30px;
+}
+
+.horizontal-repeat p {
+  font-size: 50px;
+  color: #67a0c9;
+}
+
+.horizontal-repeat span {
+  font-size: 30px;
+  color: white;
+}
+
+.phil_atrribute_growth{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    top: 80px;
+    left: 150px;
+    transform: rotate(-12deg);
+}
+
+.phil_atrribute_integrity{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    top: 80px;
+    left: 600px;
+    transform: rotate(12deg);
+}
+
+.phil_atrribute_excellence{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    top: 80px;
+    right: 100px;
+    transform: rotate(12deg);
+}
+
+.phil_atrribute_team{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    bottom: 80px;
+    left: 150px;
+}
+
+.phil_atrribute_fun{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    bottom: 40px;
+    right: 500px;
+}
+
+.phil_atrribute_empathy{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d82ad;
+    font-size: 19px;
+    bottom: 80px;
+    right: 100px;
+    transform: rotate(-12deg);
+}

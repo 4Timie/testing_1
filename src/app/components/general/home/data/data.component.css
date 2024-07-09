@@ -1,0 +1,64 @@
+
+.data {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 70px 0;
+  background-color: whitesmoke;
+}
+
+.data_container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_container div h1{
+    font-size: 50px;
+}
+
+table, td {
+  border: 1px solid #ded9c8;
+  border-collapse: collapse;
+  height: 200px;
+  width: 800px;
+}
+
+table td {
+  padding-left: 40px;
+  position: relative;
+}
+
+
+table td .number_blue{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #0282AD, #20A0CB, #0A96C6);
+    position: absolute;
+    top: 0;
+    left: 0; 
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+table td .number_green{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BCD848;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}

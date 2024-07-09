@@ -1,0 +1,39 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery_container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px 0;
+}
+
+.gallery_mini_container {
+  padding: 50px 0;
+}
+
+.gallery_mini_container p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.gallery_mini_container span {
+  font-weight: 700;
+}
+
+.images {
+  display: flex;
+  height: 538px;
+  padding-top: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.images_item {
+  height: 100%;
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+  justify-content: space-between;
+}

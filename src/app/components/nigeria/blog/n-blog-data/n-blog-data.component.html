@@ -1,0 +1,38 @@
+<div class="blog_data">
+    <div class="blog_data_container">
+      <div>
+        <div class="blog_data_filter">
+          <div class="blog_data_filter-items">
+            <div class="all">All articles</div>
+            <div>Product</div>
+            <div>Software</div>
+            <div>Frameworks</div>
+            <div>Processes</div>
+            <div>Design</div>
+          </div>
+          <div>
+            <input
+              class="blog_data_input"
+              placeholder="Search for an article..."
+            />
+          </div>
+        </div>
+  
+        <div class="divider"></div>
+      </div>
+  
+      <div class="blog_card">
+        <div *ngFor="let new of news">
+          <app-blog-card [new]="new"></app-blog-card>
+        </div>
+      </div>
+  
+      <div class="blog_button">
+        <app-custom-button
+          [text]="customtext"
+          [styles]="customStyles"
+        ></app-custom-button>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,177 @@
+<div class="team">
+  <div class="team_container">
+    <div class="team_text">
+      <h1>Meet the <span>Team</span></h1>
+      <p>
+        Unveiling the Architects of Financial Transformation: Meet the eProcess
+        Nigeria team. Our leadership spearheads visionary financial technology
+        solutions, driving innovation and excellence in Nigeria's financial
+        landscape.
+      </p>
+    </div>
+
+    <div class="team_members">
+      <div class="team_member_container" (click)="openModal()">
+        <div class="team_member_mini">
+          <span>Board chairman</span>
+          <p>firstName lastName</p>
+          <div class="divider"></div>
+          <span>LN</span>
+        </div>
+      </div>
+      <div class="team_member_container" (click)="openModal()">
+        <div class="team_member_mini">
+          <span>Managing Director</span>
+          <p>firstName lastName</p>
+          <div class="divider"></div>
+          <span>LN</span>
+        </div>
+      </div>
+      <div class="team_member_container2" (click)="openModal()">
+        <div class="team_member_mini">
+          <span>Board secretary</span>
+          <p>firstName lastName</p>
+          <div class="divider"></div>
+          <span>LN</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="team_button">
+      <app-custom-button
+        routerLink="/eProcess-nigeria/about-us"
+        [text]="customtext"
+      ></app-custom-button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div *ngIf="isOpen" class="modal" (click)="closeModal($event)">
+  <div class="modal_container">
+    <div class="modal_cancel" (click)="close()">
+      <mat-icon>close</mat-icon>
+    </div>
+
+    <!-- IF BLOCK -->
+    <div *ngIf="isChange; else elseblock">
+      <div class="modal_content_header">
+        <div class="modal_header">
+          <div class="modal_avatar"></div>
+          <p>firstName lastName</p>
+          <span>Board chairman</span>
+        </div>
+
+        <span>LN</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="modal_content_body">
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+        voluptas nulla pariatur? "Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore
+        magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+        nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+        aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+        qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+        illum qui dolorem eum fugiat quo voluptas nulla pariatur?""
+      </div>
+
+      <div class="modal_content_footer">
+        <div class="modal_arrow_container">
+          <div class="modal_arrow" [style.opacity]="activeColorOpacity">
+            <mat-icon class="arrow">arrow_back</mat-icon>
+          </div>
+          <div class="modal_arrow">
+            <mat-icon class="arrow" (click)="next()">arrow_forward</mat-icon>
+          </div>
+        </div>
+
+        <app-custom-button
+          [text]="customModal"
+          (click)="close()"
+        ></app-custom-button>
+      </div>
+    </div>
+
+    <!-- ELSE BLOCK -->
+    <ng-template #elseblock>
+      <div>
+        <div class="modal_content_header">
+          <div class="modal_header">
+            <div class="modal_avatar"></div>
+            <p>firstName lastName</p>
+            <span>Board member</span>
+          </div>
+
+          <span>LN</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="modal_content_body">
+          The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum." Section 1.10.32 of "de Finibus Bonorum et
+          Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis
+          iste natus error sit voluptatem accusantium doloremque laudantium,
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+          quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+          voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit, sed quia non numquam eius modi tempora
+          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+          enim ad minima veniam, quis nostrum exercitationem ullam corporis
+          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+          autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+          nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+          voluptas nulla pariatur?" 1914 translation by H. Rackham "But I must
+          explain to you how all this mistaken idea of denouncing pleasure and
+          praising pain was born and I will give you a complete account of the
+          system, and expound the actual teachings of the great explorer of the
+          truth.
+        </div>
+
+        <div class="modal_content_footer">
+          <div class="modal_arrow_container">
+            <div class="modal_arrow">
+              <mat-icon class="arrow" (click)="next()">arrow_back</mat-icon>
+            </div>
+            <div class="modal_arrow" [style.opacity]="activeColorOpacity">
+              <mat-icon class="arrow">arrow_forward</mat-icon>
+            </div>
+          </div>
+
+          <app-custom-button
+            [text]="customModal"
+            (click)="close()"
+          ></app-custom-button>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</div>

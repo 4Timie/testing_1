@@ -1,0 +1,27 @@
+.gallery {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #0282ad, #20a0cb, #0a96c6);
+}
+
+.gallery_container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.gallery_text {
+  font-size: 48px;
+  font-weight: 700;
+  width: 780px;
+  padding: 100px 0;
+  color: white;
+}
+
+span {
+  color: #bcd848;
+}

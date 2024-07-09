@@ -1,0 +1,45 @@
+.objectives {
+  display: flex;
+  justify-content: center;
+  padding: 100px 100px;
+  background-color: whitesmoke;
+}
+
+.objectives_container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.objectives_container h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.objectives_container span {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #aece2b);
+}
+
+.objectives_flex_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.objectives_text_container {
+  width: 574px;
+}
+
+.objectives_flex_text{
+    display: flex;
+    gap: 10px;
+}
+
+.objectives_flex_text p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-weight: 200;
+}

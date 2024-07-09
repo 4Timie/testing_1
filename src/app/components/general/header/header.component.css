@@ -1,0 +1,31 @@
+.header {
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.header_app {
+  background-color: #3d82ad;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 20px;
+    padding: 10px 0 10px 0;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: white;
+}
+
+.header_container .active {
+ font-weight: 700;
+}

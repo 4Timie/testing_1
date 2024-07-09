@@ -1,0 +1,78 @@
+<button class="button" [ngStyle]="styles" (click)="text==='Contact Us' ? openModal(): null">
+  {{ text }}
+</button>
+
+<!-- Modal -->
+<div *ngIf="isOpen && text==='Contact Us'" class="modal" (click)="closeModal($event)">
+  <div class="modal_container">
+    <div class="modal_cancel" (click)="close()">
+      <mat-icon>close</mat-icon>
+    </div>
+
+    <div class="modal_content_header">
+      <div class="modal_header">
+        <p>Contact eProcess #name</p>
+      </div>
+
+      <div class="divider"></div>
+    </div>
+
+    <div class="modal_content_body">
+      <div class="modal_flex_form">
+        <div>
+          <label>Your name</label><br />
+          <input type="text" class="name" placeholder="John" />
+        </div>
+
+        <div>
+          <label>Your email address</label><br />
+          <input
+            type="text"
+            class="email"
+            placeholder="iakinyemi@ecobank.com"
+          />
+        </div>
+      </div>
+
+      <div style="padding-top: 20px;">
+        <label>Type your message</label><br />
+        <textarea
+          type="text"
+          class="message"
+          placeholder="Kindly type your message here..."
+        ></textarea>
+      </div>
+
+      <div class="modal_button">
+        <app-custom-button
+          [text]="customModal"
+          (click)="close()"
+        ></app-custom-button>
+      </div>
+    </div>
+    
+
+    <div class="divider"></div>
+
+    <div class="modal_footer">
+      <div class="modal_text">
+        <p>
+          Write to us <a href="">eprocess&#64;international.com</a> or call us
+          on
+          <a href="">+971 55 3305229.</a>
+        </p>
+      </div>
+
+      <div class="modal_links_container">
+        <div class="modal_links">
+          <mat-icon class="arrow"></mat-icon>
+          <a href="">TW</a>
+        </div>
+        <div class="modal_links">
+          <mat-icon class="arrow"></mat-icon>
+          <a href="">IN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

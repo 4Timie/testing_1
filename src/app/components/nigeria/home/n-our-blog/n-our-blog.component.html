@@ -1,0 +1,28 @@
+<div class="blog">
+  <div class="blog_container">
+    <div class="blog_container_text">
+      <h1>Our blog</h1>
+      <p>
+        Embark on a Financial Odyssey: Explore eProcess Nigeria's blog for
+        thought-provoking insights, trends, and transformative fintech
+        narratives.
+      </p>
+    </div>
+
+    <!-- The slice pipe takes two arguments: the start index (0 in this case) and the
+        end index (2 in this case). This will display only the items with indices 0
+        and 1, effectively showing the first two items from the news array. -->
+    <div class="blog_card">
+      <div *ngFor="let new of news | slice : 0 : 2">
+        <app-blog-card [new]="new"></app-blog-card>
+      </div>
+    </div>
+
+    <div class="button">
+      <app-custom-button
+        routerLink="/eProcess-nigeria/blog"
+        [text]="customtext"
+      ></app-custom-button>
+    </div>
+  </div>
+</div>

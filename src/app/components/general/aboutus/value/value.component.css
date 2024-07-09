@@ -1,0 +1,61 @@
+.value {
+  display: flex;
+  justify-content: center;
+  background-color: #0282ad0d;
+  padding: 100px 0;
+}
+
+.value_container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.value_header_container {
+  text-align: center;
+}
+
+.value_header_container span {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #AECE2B);
+}
+
+.value_flex {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.value_content {
+  width: 381px;
+  height: 203px;
+}
+
+.value_content img {
+  margin-left: -10px;
+}
+
+.value_content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #20a0cb, #0a96c6);
+}
+
+.value_content p {
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+.value_nigeria_logo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+}

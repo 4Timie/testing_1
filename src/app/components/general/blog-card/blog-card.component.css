@@ -1,0 +1,84 @@
+.card {
+  width: 586px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 20px 0 20px 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+img {
+  height: 100%;
+  width: 222px;
+  object-fit: contain;
+}
+
+.card_container_text {
+  padding: 20px 10px 10px 0;
+}
+
+.card_container_product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(2, 130, 173, 0.1);
+  width: 173px;
+  height: 28px;
+  border-radius: 50px;
+  gap: 4px;
+}
+
+.card_product {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.card_container_product p {
+  color: rgba(2, 130, 173, 1);
+  font-size: 12px;
+}
+
+.card_topic {
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.card_description {
+  font-size: 14px;
+  font-weight: 200;
+  padding-top: 8px;
+}
+
+.card_container_writer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 20px;
+}
+
+.card_avatar {
+  height: 32px;
+  width: 32px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.card_writer p:first-child {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card_writer p:last-child {
+  font-size: 10px;
+  font-weight: 200;
+}

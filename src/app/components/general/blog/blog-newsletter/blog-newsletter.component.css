@@ -1,0 +1,37 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 70px 0 70px 0;
+}
+
+.news .news_container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.news div span {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #0a96c6, #0a96c6);
+}
+
+.news_input_container {
+  border: 1px solid #3d82ad;
+  border-radius: 10px 0 10px 10px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.news_input {
+  width: 400px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: white;
+  border: 0;
+  outline: none;
+  font-size: 17px;
+}

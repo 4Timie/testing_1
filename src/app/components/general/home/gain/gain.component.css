@@ -1,0 +1,89 @@
+.app_gain {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 100px 0 50px 0;
+}
+
+.gain_container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.gain_text {
+  text-align: center;
+}
+
+.gain_text h1 {
+  padding-bottom: 20px;
+}
+
+.gain_text p {
+  line-height: 20px;
+}
+
+.gain_row{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 50px;
+}
+
+.gain_card_blue{
+    display: flex;
+    gap: 10px;
+    background-color: #E9EFF3;
+    width: 380px;
+    height: 190px;
+    padding: 40px 30px 0px 10px;
+    border-radius: 10px 0 10px 10px;
+    border-bottom: 3px solid #0282AD;
+}
+
+.gain_card_blue h3{
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.gain_card_blue p{
+    padding-bottom: 10px;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.gain_card_yellow{
+    display: flex;
+    gap: 10px;
+    background-color: #F0F3E6;
+    width: 380px;
+    height: 190px;
+    padding: 40px 30px 0px 10px;
+    border-radius: 10px 0 10px 10px;
+    border-bottom: 3px solid #BCD848;
+}
+
+.gain_card_yellow h3{
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.gain_card_yellow p{
+    padding-bottom: 10px;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+.gain_icon{
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px 0 10px;
+    color: white;
+    background-color: #3d82ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}

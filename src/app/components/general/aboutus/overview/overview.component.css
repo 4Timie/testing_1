@@ -1,0 +1,73 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+
+.overview-container {
+  background-color: #ebf0f2;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.overview-mini-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px 0 150px 0;
+}
+
+.overview_text_container {
+  width: 995px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the end of the container */
+}
+
+.overview_text_container h1 {
+  font-size: 48px;
+}
+
+.overview_text_container p {
+  width: 586px; /* width of the p text */
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 30px;
+  text-align: left; /* Align the text to the left within the p container width */
+}
+
+.overview_text_container h1 .lblue {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #0a96c6, #20a0cb);
+}
+
+.overview_text_container h1 .lyellow {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #aece2b);
+}
+
+.overview_nigeria_logo{
+  position: absolute;
+  right: 70px;
+  top: 70px;
+}
+
+.overview_image {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+  z-index: 1;
+}
+
+.overview_image_container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}

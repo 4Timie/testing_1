@@ -1,0 +1,120 @@
+.products {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: whitesmoke;
+}
+
+.products_container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.products_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.products_flex h2 {
+  width: 588px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.products_flex p {
+  width: 484px;
+  font-size: 16px;
+  font-weight: 200;
+  padding-left: 30px;
+}
+
+.lblue {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #0a96c6, #20a0cb);
+}
+
+.lyellow {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #aece2b);
+}
+
+.llblue {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #20a0cb, #20a0cb);
+}
+
+.table_container {
+  padding-top: 50px;
+}
+
+.table_row {
+  display: flex;
+}
+
+.table_row_last {
+  display: flex;
+  justify-content: center;
+}
+
+.table_cell {
+  width: 400px;
+  height: 234px;
+  border: 1px solid #e9e9e9;
+  padding: 52px;
+  position: relative;
+}
+
+.table_cell_eleven {
+  width: 484px;
+  height: 234px;
+  border: 1px solid #e9e9e9;
+  padding: 52px;
+  position: relative;
+}
+
+.table_number-blue {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0282ad, #20a0cb, #0a96c6);
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.table_number-green {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bcd848;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.table_content h4 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.table_content p {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+}

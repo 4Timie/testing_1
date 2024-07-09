@@ -1,0 +1,41 @@
+.overview {
+  padding-top: 170px;
+  display: flex;
+  justify-content: center;
+  background: url("../../../../../assets/images/blog-background.png");
+}
+
+.overview-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  width: 782px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.first {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #0a96c6, #0a96c6);
+}
+
+.second {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad, #aece2b);
+}
+
+.last {
+  background-clip: text; /* for compatability with   -webkit-background-clip: text; */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #0282ad,#0a96c6, #0282ad,#aece2b);
+}
